@@ -1,0 +1,146 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+
+    background-color: #EF8354;
+    color: white;
+}
+
+
+header{
+    height: 8vh;
+    padding: 10px;
+
+    /* border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px; */
+
+
+    background-color: #2D3142;
+
+    box-shadow: 0 0 1em rgb(31, 30, 26);
+}
+
+header div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    padding: 15px;
+    padding-left: 40px;
+
+    
+}
+
+section h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+section p{
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+}
+
+
+main div{
+    max-width: 33vw;
+    height: 50vh;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-color: #F9C784;
+    box-shadow: 0 0 1em rgba(20, 20, 17, 0.575);
+    
+
+    border-radius: 25px;
+    
+}
+
+main div:hover{
+    transform: scale(1.1);
+    transition: all 1.5s;
+} 
+
+
+main div h2{
+    color: rgb(27, 14, 49);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main div h3{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main div p {
+    font-size: 20px;
+    color: #2D3142;
+}
+
+main div ol li{
+    font-size: 17px;
+}
+
+img{
+    width: 50%;
+    max-width: 90px;
+}
+
+@media   (max-width: 1160px){
+    section p{
+        font-size: 10px;
+    }
+    section h1{
+        text-align: center;
+        font-size: 2em;
+    }
+    main div{
+        min-width: 70vw;
+        height: 50%;
+    
+        padding-left: 3px;
+        padding-right: 3px;
+    
+        background-color: #F9C784;
+        box-shadow: 0 0 1em rgba(20, 20, 17, 0.575);
+        
+    
+        border-radius: 25px;
+        
+        
+    }
+}
+
+@media   (max-width: 350px){
+    section h1{
+        text-align: center;
+        font-size: 1em;
+    }
+    img{
+        
+        width: 40px;
+    }
+
+    *{
+        margin-bottom: 40px;
+    }
+    section p{
+        font-size: 30px;
+    }
+}
+/* :hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+} */
